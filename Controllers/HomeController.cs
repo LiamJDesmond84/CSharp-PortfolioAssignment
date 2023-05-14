@@ -30,5 +30,16 @@ namespace CSharp_PortfolioAssignment.Controllers
             return View();
         }
 
+
+
+
+        [HttpPost("submit")]
+        public void Submit(string name, string email)
+        {
+            Console.WriteLine($"My name is {name} and my email is {email}");
+/*            return RedirectToAction("Result", name, email);*/
+        }
+
+
     }
 }
