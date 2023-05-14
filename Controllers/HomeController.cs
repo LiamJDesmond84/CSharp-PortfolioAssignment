@@ -14,5 +14,18 @@ namespace CSharp_PortfolioAssignment.Controllers
         {
             return View();
         }
+
+        [HttpGet("contact")]
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        [HttpGet("projects")]
+        public IActionResult Projects()
+        {
+            return View();
+        }
+
     }
 }

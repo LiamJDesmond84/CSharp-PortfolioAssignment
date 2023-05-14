@@ -5,4 +5,9 @@
     <RootNamespace>CSharp_PortfolioAssignment</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
 </Project>
