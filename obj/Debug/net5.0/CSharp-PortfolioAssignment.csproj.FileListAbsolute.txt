@@ -34,3 +34,5 @@ C:\Users\liamj\Documents\GitRepos\CSharp-PortfolioAssignment\obj\Debug\net5.0\CS
 C:\Users\liamj\Documents\GitRepos\CSharp-PortfolioAssignment\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\liamj\Documents\GitRepos\CSharp-PortfolioAssignment\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\liamj\Documents\GitRepos\CSharp-PortfolioAssignment\obj\Debug\net5.0\Razor\Views\Home\Projects.cshtml.g.cs
+C:\Users\liamj\Documents\GitRepos\CSharp-PortfolioAssignment\obj\Debug\net5.0\Razor\Views\Home\Submit.cshtml.g.cs
+C:\Users\liamj\Documents\GitRepos\CSharp-PortfolioAssignment\obj\Debug\net5.0\Razor\Views\Home\Survey.cshtml.g.cs

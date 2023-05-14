@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+        <div class="header-right">
+            <ahref="/">Home</a>
+            <a href="/contact">Contact</a>
+            <a href="/projects">Projects</a>
+            <a class="active" href="/survey">Survey</a>
+        </div>
+    </div>
+    <div>
+        <form action="submit" method="post">
+            <label for="name">Your Name</label>
+            <input name="name" type="text" />
+
+            <label for="location">Location</label>
+            <input name="location" type="text" />
+
+            <label for="language">Favorite Language:</label>
+            <select name="language">
+                <option value="C#">C#</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Aassembly">Assembly</option>
+            </select>
+
+            <label for="comment">Comment(Optional)</label>
+            <textarea name="comment" rows="10" cols="30"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

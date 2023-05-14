@@ -33,11 +33,30 @@ namespace CSharp_PortfolioAssignment.Controllers
 
 
 
-        [HttpPost("submit")]
-        public void Submit(string name, string email)
+        [HttpPost("send")]
+        public void Send(string name, string email)
         {
             Console.WriteLine($"My name is {name} and my email is {email}");
 /*            return RedirectToAction("Result", name, email);*/
+        }
+
+
+        [HttpGet("survey")]
+        public IActionResult Survey()
+        {
+            return View();
+        }
+
+
+        [HttpPost("submit")]
+        public IActionResult Submit(string name, string location, string language, string comment)
+        {
+            ViewBag.Name = name;
+            ViewBag.Location = location;
+            ViewBag.Language = language;
+            ViewBag.Comment = comment;
+            return View();
+
         }
 
 
