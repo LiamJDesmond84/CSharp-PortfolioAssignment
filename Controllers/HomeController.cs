@@ -12,6 +12,9 @@ namespace CSharp_PortfolioAssignment.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
+            DateTime CurrentTime = DateTime.Now;
+
+            ViewBag.Time = CurrentTime;
             return View();
         }
 
